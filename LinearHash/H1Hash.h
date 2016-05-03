@@ -7,6 +7,7 @@
 
 using namespace std;
 
+
 class HashNode
 {
     public:
@@ -87,14 +88,18 @@ class HashMap
             }
 
             if (entry->value == val) {
-                if (entry->next != NULL) {
+                if (prev != NULL) {
                     prev->next = entry->next;
                 }
-                else {
-                    prev->next = NULL;
+                if (prev == NULL) {
+                    if (entry->next == NULL)
+                        htable[hash_val] = NULL;
+                    else {
+                        htable[hash_val] = entry->next;
+                    }
                 }
                 delete entry;
-                cout << "Element Deleted" << endl;
+                //cout << "Element Deleted" << endl;
             }
             else {
                 cout << val << " is not in the hash." << endl;

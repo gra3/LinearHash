@@ -211,46 +211,55 @@ void writeOutput(vector<recorder<timer>> &stats, vector<int> n, string outputFil
 
 int main(int argc, char*argv[])
 {
-	//vector<recorder<timer>> linearStats;
-	////int nArray[] = {13,97,151, 263,509,739,1033,1259,1553,1721};
-	//int nArray[] = {1049,2111,4049,7177,10093,13337,16033,19403,23297,27743};
-	//vector<int> n(nArray, nArray + sizeof(nArray)/sizeof(int));
+	vector<recorder<timer>> linearStats;
+	//int nArray[] = {13,97,151, 263,509,739,1033,1259,1553,1721};
+	int nArray[] = {1049,2111,4049,7177,10093,13337,16033,19403,23297,27743};
+	vector<int> n(nArray, nArray + sizeof(nArray)/sizeof(int));
 
-	//test(n[0],53,linearStats);
-	//test(n[1],101,linearStats);
-	//test(n[2],233,linearStats);
-	//test(n[3],379,linearStats);
-	//test(n[4],563,linearStats);
-	//test(n[5],613,linearStats);
-	//test(n[6],857,linearStats);
-	//test(n[7],1069,linearStats);
-	//test(n[8],1399,linearStats);
-	//test(n[9],2389,linearStats);
-	//writeOutput(linearStats,n,"linearHashOutput.txt");
+	test(n[0],53,linearStats);
+	test(n[1],101,linearStats);
+	test(n[2],233,linearStats);
+	test(n[3],379,linearStats);
+	test(n[4],563,linearStats);
+	test(n[5],613,linearStats);
+	test(n[6],857,linearStats);
+	test(n[7],1069,linearStats);
+	test(n[8],1399,linearStats);
+	test(n[9],2389,linearStats);
+	writeOutput(linearStats,n,"linearHashOutput.txt");
 
-	//vector<recorder<timer>> H2stats;
+	vector<recorder<timer>> H2stats;
 
-	//int h2nArray[] = {1049,2111,4049,7177,10093,13337,16033,19403,23297,27743};
-	//vector<int> h2n(h2nArray, h2nArray + sizeof(h2nArray)/sizeof(int));
+	int h2nArray[] = {1049,2111,4049,7177,10093,13337,16033,19403,23297,27743};
+	vector<int> h2n(h2nArray, h2nArray + sizeof(h2nArray)/sizeof(int));
 
-	//testH2(h2n[0],101,H2stats);
-	//testH2(h2n[1],101,H2stats);
-	//testH2(h2n[2],101,H2stats);
-	//testH2(h2n[3],101,H2stats);
-	//testH2(h2n[4],101,H2stats);
-	//testH2(h2n[5],101,H2stats);
-	//testH2(h2n[6],101,H2stats);
-	//testH2(h2n[7],101,H2stats);
-	//testH2(h2n[8],101,H2stats);
-	//testH2(h2n[9],101,H2stats);
-	//writeOutput(H2stats,h2n, "H2Output.txt");
+	testH2(h2n[0],101,H2stats);
+	testH2(h2n[1],101,H2stats);
+	testH2(h2n[2],101,H2stats);
+	testH2(h2n[3],101,H2stats);
+	testH2(h2n[4],101,H2stats);
+	testH2(h2n[5],101,H2stats);
+	testH2(h2n[6],101,H2stats);
+	testH2(h2n[7],101,H2stats);
+	testH2(h2n[8],101,H2stats);
+	testH2(h2n[9],101,H2stats);
+	writeOutput(H2stats,h2n, "H2Output.txt");
 
 	vector<recorder<timer>> H1stats;
 
-	int h1nArray[] = {10};
+	int h1nArray[] = {1049,2111,4049,7177,10093,13337,16033,19403,23297,27743};
 	vector<int> h1n(h1nArray, h1nArray + sizeof(h1nArray)/sizeof(int));
 
 	testH1(h1n[0],10,H1stats);
+	testH1(h1n[1],10,H1stats);
+	testH1(h1n[2],10,H1stats);
+	testH1(h1n[3],10,H1stats);
+	testH1(h1n[4],10,H1stats);
+	testH1(h1n[5],10,H1stats);
+	testH1(h1n[6],10,H1stats);
+	testH1(h1n[7],10,H1stats);
+	testH1(h1n[8],10,H1stats);
+	testH1(h1n[9],10,H1stats);
 	writeOutput(H1stats,h1n, "H1Output.txt");
 
 
