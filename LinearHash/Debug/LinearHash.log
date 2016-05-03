@@ -1,11 +1,33 @@
-﻿Build started 4/30/2016 3:06:44 PM.
+﻿Build started 5/2/2016 9:13:43 PM.
      1>Project "C:\Users\George\Dropbox\Spring 2016\Data Structures\LinearHash\LinearHash\LinearHash.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>c:\users\george\dropbox\spring 2016\data structures\linearhash\linearhash\main.cpp(37): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\george\dropbox\spring 2016\data structures\linearhash\linearhash\main.cpp(45): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\george\dropbox\spring 2016\data structures\linearhash\linearhash\main.cpp(90): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\george\dropbox\spring 2016\data structures\linearhash\linearhash\main.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\george\dropbox\spring 2016\data structures\linearhash\linearhash\main.cpp(43): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\george\dropbox\spring 2016\data structures\linearhash\linearhash\main.cpp(54): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\george\dropbox\spring 2016\data structures\linearhash\linearhash\main.cpp(63): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\george\dropbox\spring 2016\data structures\linearhash\linearhash\main.cpp(71): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\george\dropbox\spring 2016\data structures\linearhash\linearhash\main.cpp(79): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\george\dropbox\spring 2016\data structures\linearhash\linearhash\main.cpp(87): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\george\dropbox\spring 2016\data structures\linearhash\linearhash\main.cpp(95): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\george\dropbox\spring 2016\data structures\linearhash\linearhash\main.cpp(200): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\george\dropbox\spring 2016\data structures\linearhash\linearhash\hashtable.hpp(29): warning C4018: '>' : signed/unsigned mismatch
+                 c:\users\george\dropbox\spring 2016\data structures\linearhash\linearhash\hashtable.hpp(21) : while compiling class template member function 'void Hashtable<T>::insert(const T)'
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\george\dropbox\spring 2016\data structures\linearhash\linearhash\main.cpp(73) : see reference to function template instantiation 'void Hashtable<T>::insert(const T)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\george\dropbox\spring 2016\data structures\linearhash\linearhash\main.cpp(73) : see reference to class template instantiation 'Hashtable<T>' being compiled
+                 with
+                 [
+                     T=int
+                 ]
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\George\Dropbox\Spring 2016\Data Structures\LinearHash\LinearHash\Debug\LinearHash.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\George\Dropbox\Spring 2016\Data Structures\LinearHash\LinearHash\Debug\LinearHash.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\George\Dropbox\Spring 2016\Data Structures\LinearHash\LinearHash\Debug\LinearHash.lib" /MACHINE:X86 Debug\LinearHash.obj
          Debug\main.obj
@@ -14,4 +36,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.87
+Time Elapsed 00:00:01.26

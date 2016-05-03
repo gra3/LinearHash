@@ -32,5 +32,11 @@
     <ClInclude Include="LinearHash.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Hashtable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H1Hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -70,6 +70,8 @@
   <ItemGroup>
     <ClInclude Include="Complexity_Recorder.hpp" />
     <ClInclude Include="Complexity_Timer.hpp" />
+    <ClInclude Include="H1Hash.h" />
+    <ClInclude Include="Hashtable.hpp" />
     <ClInclude Include="LinearHash.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

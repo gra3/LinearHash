@@ -45,7 +45,6 @@ public:
   }
   void report(std::ostream& o, int repeat_factor)
   {
-	  cout << times.size() << endl;
     o << std::fixed << std::setprecision(3) << std::setw(12)
       << (pow(10,6))*median(times)/repeat_factor;
       o << "     ";
